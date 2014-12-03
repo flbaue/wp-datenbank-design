@@ -1,0 +1,15 @@
+create table Artikel(Artnr number(4) primary key, ArtName varchar2(30) not null, ArtGrp char(1), GrpName varchar2(20));
+insert into artikel values(1,'Handcreme','K','Körperpflege');
+insert into artikel values(2,'Seife','K','Körperpflege');
+insert into artikel values(7,'Deo-Stift','K','Körperpflege');
+insert into artikel values(2001,'Vollmilch-Schokoriegel','S','Süssigkeiten');
+insert into artikel values(2007,'Müsli-Riegel','S','Süssigkeiten');
+insert into artikel values(2147,'Pralinen','S','Süssigkeiten');
+insert into artikel values(4001,'Orangensaft','G','Getränke');
+
+
+
+
+
+
+
