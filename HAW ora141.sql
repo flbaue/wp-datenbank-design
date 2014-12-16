@@ -1,0 +1,3 @@
+select * from ALL_TAB_COLUMNS where TABLE_NAME like '%GESCHÄFTSPARTNER%';
+
+create table GESCHÄFTSPARTNER (select ID, NAME, STRAßE, PLZ, STADT, EMAIL from GESCHÄFTSPARTNER);
