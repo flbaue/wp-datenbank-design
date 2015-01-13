@@ -58,7 +58,7 @@ WITH
         FROM kunden k, geschäfte g
         order by k.id )
 SELECT
-   kunde_m, distanz_m, geschäft
+   kunde_m kunde, distanz_m distanz, geschäft
 FROM
    min_distanc,
    distances
